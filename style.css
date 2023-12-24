@@ -1,0 +1,38 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.spaghetti,
+.sandwich,
+.turkey {
+    height: auto;
+}
+
+.spaghetti {
+    width: 341.5px;
+}
+
+.sandwich {
+    width: 280px;
+}
+
+.turkey {
+    width: 380px;
+}
+
+.ramsay {
+    height:270px;
+    width:480px;
+}
