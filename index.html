@@ -1,23 +1,53 @@
 <!DOCTYPE html>
 <html lang="eg">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        <title>Recipe Website</title>
-    </head>
-
-    <body>
-        <h1>Odin Recipes</h1>
-        <div class="container">
-            <img class="ramsay" src="https://media1.giphy.com/media/Yl4X3JyLv6fEVbTXKL/giphy.gif?cid=ecf05e474x6rerb5kq13e466uyfw5oh3zi8x58pvu5yu6usm&ep=v1_gifs_search&rid=giphy.gif&ct=g"
-            alt="Gordan Ramsay approved">
-        </div>
-        <div class="container">
-            <ul>
-                <li><a href="recipes/spaghetti.html">Spaghetti</a></li>
-                <li><a href="recipes/grilled-cheese.html">Grilled Cheese Sandwich</a></li>
-                <li><a href="recipes/deep-fried-turkey.html">Deep-Fried Turkey</a></li>
-            </ul>
-          </div>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Recipe Website</title>
+  </head>
+  <body class="index">
+    <h1 class="index-header">Odin Recipes</h1>
+    <h2 class="index-sub" target="_blank">Icons</a> <span>by</span> <a class="index-sub" target="_blank" href="https://icons8.com">Icons8</a></h2>
+      <ul class="flex-container">
+        <li class="flex-item"><a class="links" href="recipes/spaghetti.html"
+          ><img
+            class="icon"
+            width="84"
+            height="64"
+            src="spaghetti.png"
+            alt="spaghetti"
+          />
+          <div class="break"></div>
+          Spaghetti<div class="break"></div>
+          <span class="index-desc">Noodles, sauce, meat.</span></a
+        ></li>
+        <li class="flex-item"><a class="links" href="recipes/grilled-cheese.html"
+          ><img
+            class="icon"
+            width="88"
+            height="58"
+            src="cheese.png"
+            alt="cheese"
+          />
+          <div class="break"></div>
+          Grilled Cheese Sandwich<div class="break"></div>
+          <span class="index-desc">The classic hot sandwich.</span></a
+        ></li>
+        <li class="flex-item last-item"><a class="links" href="recipes/deep-fried-turkey.html"
+          ><img
+            class="icon"
+            width="84"
+            height="67"
+            src="turkey.png"
+            alt="turkey"
+          />
+          <div class="break"></div>
+          Deep-Fried Turkey
+          <div class="break"></div>
+          <div class="index-desc">All-American favorite.</div></a
+        ></li>
+      </ul>
+    <span class="footer">design by <a target="_blank" href="https://github.com/rileyhoyson">@Riley Hoyson</a></span>
+  </body>
 </html>
