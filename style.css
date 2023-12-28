@@ -165,6 +165,19 @@ a {
     }
 }
 
+@media (max-width: 600px) {
+    .index-header {
+        font-size: 26px;
+    }
+    .flex-item {
+        font-size: 12px;
+    }
+    .icon {
+        height: auto;
+        width: 48px;
+    }
+}
+
 @media (max-width: 300px) {
     .flex-container {
         align-items: center;
