@@ -8,8 +8,9 @@
 html, body {
     margin: 0; 
     padding: 0;
-    height: 100vh;
-    overflow: hidden;  
+    height: 100%;
+    overflow: hidden;
+
 }
 
 body {
@@ -166,35 +167,47 @@ a {
 }
 
 @media (max-width: 600px) {
+    .flex-container {
+        gap: 1em;
+    }
     .index-header {
         font-size: 26px;
     }
     .flex-item {
         font-size: 12px;
+        max-height: 20vh;
+        flex-grow: 1;         
+    }    
+    .flex-item a {
+        align-content: center;
+        padding: 20px;
+        width: 70vw;
     }
     .icon {
         height: auto;
-        width: 48px;
+        width: 52px;
+    }
+}
+
+@media (max-width: 400px) {
+    .flex-item{ 
+        font-size: 10px;
     }
 }
 
 @media (max-width: 300px) {
-    .flex-container {
-        align-items: center;
-        justify-content: center;
-    }
     .flex-item {
-        max-height: 25vh;
-        font-size: 12px;
+        max-height: 20vh;
+        font-size: 10px;
         max-width:80%;
+    }
+    .flex-item a {
+        padding:20px;
+        width: 80vw;
     }
 }
 
 @media (max-width: 221px) {
-    .flex-container {
-        align-items: center;
-        justify-content: center;
-    }
     .flex-item {
         font-size: 10px;
     }
